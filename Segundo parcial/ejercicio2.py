@@ -20,9 +20,9 @@ class Medicinal(Planta):
         print("la bugambilia crece junto al árbol")
 
 una_planta=Planta()
-print(una_planta.crecer())
+una_planta.crecer()
 una_flor=Flor()
-print(una_flor.crecer())
+una_flor.crecer()
 una_medicinal=Medicinal()
-print(una_medicinal.crecer())
+una_medicinal.crecer()
 
