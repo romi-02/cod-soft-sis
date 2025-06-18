@@ -12,7 +12,7 @@ def get_pokemon_info(name):
     else:
         print(f"Hay un error!!{response.status_code}")
 
-pokemon_name = "eevee"
+pokemon_name = "pikachu"
 pokemon_info = get_pokemon_info(pokemon_name)
 
 if  pokemon_info:
