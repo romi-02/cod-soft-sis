@@ -12,7 +12,7 @@ def get_pokemon_info(name):
     else:
       print(f"Failed to retraive data {response.status_code}")
 
-pokemon_name ="ditto"
+pokemon_name ="pikachu"
 pokemon_info = get_pokemon_info(pokemon_name)
 
 if  pokemon_info: 
